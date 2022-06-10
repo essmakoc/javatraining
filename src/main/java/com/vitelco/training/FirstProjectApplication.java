@@ -1,5 +1,6 @@
 package com.vitelco.training;
 
+import com.vitelco.training.esma.Sample;
 import com.vitelco.training.model.Point;
 import com.vitelco.training.model.Rectangle;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,11 @@ public class FirstProjectApplication {
 
         SpringApplication.run(FirstProjectApplication.class, args);
 
+        Sample sample = new Sample();
+        sample.myMethod2();
+
+
+        /*
         Rectangle rectangle = new Rectangle();
 
         Point point1 = new Point();
@@ -38,6 +44,8 @@ public class FirstProjectApplication {
         System.out.println(rectangle);
 
 
+
+        */
 
         /*/
         /variable Declaration
