@@ -9,8 +9,14 @@ public class Car {
 
     // behavior : method
     public void drive(int speed){ //kodun yazarken (speed:200) parametre
+
+        Logger.info(this.toString() + " is running in "
+                + speed + " speed limit.");
+        /*
         System.out.println(this.toString() + " is running in "
                         + speed + " speed limit.");
+
+         */
     }
 
     public void start(){
@@ -29,4 +35,7 @@ public class Car {
                 ", year=" + year +
                 ']';
     }
+
+
+
 }
